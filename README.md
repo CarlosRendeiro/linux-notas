@@ -1,4 +1,4 @@
-🐧 Linux Infra Notes (Rocky Linux / Ubuntu)
+🐧 Linux (Rocky Linux / Ubuntu)
 
 Anotações práticas e scripts desenvolvidos nos blocos de estudo, focados em administração de sistemas Linux voltados a infraestrutura e ambientes geoespaciais (PostgreSQL/PostGIS).
 
