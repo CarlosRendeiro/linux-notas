@@ -2,38 +2,38 @@
 
 ## Parte 1 - Terminal — Fundamentos
 
-- [x] Abrir terminal, entender prompt (`Ctrl+Alt+T`)
-- [x] Navegação: `pwd`, `ls`, `cd`, `cd ..`
-- [x] Diferença entre usuário comum e `root`
-- [x] `sudo` vs `su` / `su - usuario`
-- [x] Sair de sessão root (`exit` / `Ctrl+D`)
-- [x] Editor de texto no terminal (`nano`)
-- [x] Permissões de arquivo (`ls -l`, `chmod`, `chown`)
-- [x] Rocky Linux: `dnf`
-- [x] Ubuntu: `apt update` / `apt upgrade` / `apt install` / `apt remove`
+- [ ] Abrir terminal, entender prompt (`Ctrl+Alt+T`)
+- [ ] Navegação: `pwd`, `ls`, `cd`, `cd ..`
+- [ ] Diferença entre usuário comum e `root`
+- [ ] `sudo` vs `su` / `su - usuario`
+- [ ] Sair de sessão root (`exit` / `Ctrl+D`)
+- [ ] Editor de texto no terminal (`nano`)
+- [ ] Permissões de arquivo (`ls -l`, `chmod`, `chown`)
+- [ ] Rocky Linux: `dnf`
+- [ ] Ubuntu: `apt update` / `apt upgrade` / `apt install` / `apt remove`
 - [ ] Gerenciamento de repositórios (PPA / repos dnf)
 - [ ] `apt list --upgradable`
-- [x] `systemctl get-default`
-- [x] Alternar entre `graphical.target` e `multi-user.target`
-- [x] Boot direto em modo texto (VM Ubuntu configurada)
+- [ ] `systemctl get-default`
+- [ ] Alternar entre `graphical.target` e `multi-user.target`
+- [ ] Boot direto em modo texto (VM Ubuntu configurada)
 - [ ] Gerenciar serviços (`systemctl start/stop/enable/status`)
 - [ ] Ver logs de serviço (`journalctl`)
-- [x] Rocky Linux: PostgreSQL 17 + workaround porta 5433
-- [x] Ubuntu: PostgreSQL 18.6 instalado e validado
-- [x] Criar banco de dados (`createdb`)
-- [x] Conectar ao banco (`psql -U ... -d ...`)
-- [x] Simulação de recuperação: `DROP OWNED BY ... CASCADE` vs `REASSIGN OWNED BY`
+- [ ] Rocky Linux: PostgreSQL 17 + workaround porta 5433
+- [ ] Ubuntu: PostgreSQL 18.6 instalado e validado
+- [ ] Criar banco de dados (`createdb`)
+- [ ] Conectar ao banco (`psql -U ... -d ...`)
+- [ ] Simulação de recuperação: `DROP OWNED BY ... CASCADE` vs `REASSIGN OWNED BY`
 - [ ] Gerenciar usuários/roles (`CREATE ROLE`, `GRANT`)
 - [ ] Backup e restauração (`pg_dump`, `pg_restore`)
 - [ ] Configuração de acesso remoto (`postgresql.conf`, `pg_hba.conf`)
-- [x] Ativar extensão no banco (`CREATE EXTENSION postgis;`)
-- [x] Verificar versão (`SELECT PostGIS_version();`)
+- [ ] Ativar extensão no banco (`CREATE EXTENSION postgis;`)
+- [ ] Verificar versão (`SELECT PostGIS_version();`)
 - [ ] Carregar shapefile (`shp2pgsql` vs `ogr2ogr`/GDAL) — **em andamento**
 - [ ] Consultas espaciais básicas (`ST_AsText`, `ST_MakePoint`, `ST_Distance`)
 - [ ] Índices espaciais (`GIST`)
 - [ ] Reprojeção de SRID (`ST_Transform`)
-- [x] Rocky Linux 9.8 / 10.2 (VirtualBox) — banco `geobd` original
-- [x] Ubuntu 26.04 LTS (VirtualBox) — terminal puro + PostgreSQL/PostGIS do zero
+- [ ] Rocky Linux 9.8 / 10.2 (VirtualBox) — banco `geobd` original
+- [ ] Ubuntu 26.04 LTS (VirtualBox) — terminal puro + PostgreSQL/PostGIS do zero
 - [ ] Introdução e Fundamentos do Linux
   - [ ] 1. Arquitetura e Principais Áreas de Aplicação
   - [ ] 2. Famílias e Distribuições (Distros)
